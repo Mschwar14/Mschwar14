@@ -1,0 +1,9 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    grid-gap: 10px;
+  }
+  
+  <div class="wrapper"><div class="box1">One</div><div class="box2">Two</div><div class="box3">Three</div><div class="box4">Four</div>
+  
