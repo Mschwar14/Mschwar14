@@ -12,6 +12,7 @@ p.Categories{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     text-align: block;
+    background-color: white;
   }
   
   p.subpages {
