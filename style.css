@@ -35,6 +35,14 @@ p.Categories{
     text-shadow: white;
     color: white;
   }
+
+  /*Schriftart für zweiten Header*/
+  h2 {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: white;
+    color: black (255, 0, 0);
+  }
   /*Rahmen von HTML*/
   html {
     padding-top: 0px;
