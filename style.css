@@ -130,6 +130,7 @@ width: 75%; height: auto;
   
   #formbox {
     width: calc(100% / 6);
-    border: 1px solid black;
+    border: 1px solid white;
+    color: white;
     padding: 4px;
   }
