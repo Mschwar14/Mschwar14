@@ -88,6 +88,11 @@ p.Categories{
       background-color: #ddd;
       color: rgb(0, 0, 0);
     }
+
+  .topnav a.b.active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
   /*Hintergrund Design*/
   body {
     background-image: url("corvette.jpg");
@@ -133,4 +138,31 @@ width: 75%; height: auto;
     border: 1px solid white;
     color: white;
     padding: 4px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Mobile Styles */
+  @media only screen and (max-width: 400px) {
+    body {
+      background-color: #F09A9D; /* Red */
+    }
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+      background-color: #F5CF8E; /* Yellow */
+    }
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    body {
+      background-color: #B2D6FF; /* Blue */
+    }
   }
