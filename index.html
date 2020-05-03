@@ -38,6 +38,7 @@
 
 <p class="Categories"> GT Racecars</p> <img src="ts050.jpg" alt="TS050">
 <img src="dtm1.jfif" alt="DTM" >
+    
 <video controls autoplay
 controls="active" autoplay="active">
     <source src="C8Daytona.mp4" type="video/mp4">
@@ -46,15 +47,32 @@ controls="active" autoplay="active">
 <p class="Categories">Formula 1</p> <img src="Racingpoint.jpg" alt="Racingpoint"> <img src="alphatauri.jpg" alt="Alphatauri">
 <img src="williams.jpg" alt="Williams">
 
-<form>
-  <div id="formbox">
-  <label>Any Comments?</label>
-  <input type="text">
-  </div>
-</form>
+
+
+<button onclick="topFunction()" id="btn" title="Go to top" style="display: block;"> Back to Top </button>
+
+<script>                 
+var mybutton = document.getElementById("btn");
+                  
+                  
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
+mybutton.style.display = "block";
+} else {
+ mybutton.style.display = "none";
+ }
+}
+                  
+
+function topFunction() {
+document.body.scrollTop = 0;
+ document.documentElement.scrollTop = 0;
+}
+</script>
 
   <footer>
-    <h3>Crew</h3>
+    <h3>Crew:</h3>
   <h3><a href="https://babafish12.github.io/">babafish12</a>
   <h3><a href="https://di-monaco.github.io/">di-monaco</a>
   <h3><a href="https://chris1plus1gleich2.github.io/">chris1plus1gleich2</a>

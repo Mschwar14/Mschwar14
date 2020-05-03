@@ -40,7 +40,61 @@
 <p class="Text">Sauber Motorsport ist ein Schweizer Automobilrennstall mit Sitz in Hinwil im Zürcher Oberland, der von 1982 bis 1991 in der Gruppe C der FIA-Sportwagen-Weltmeisterschaft startete und gegenwärtig in der Formel-1-Weltmeisterschaft engagiert ist. Aufgrund einer Partnerschaft mit dem Fiat-Konzern tritt es aktuell unter dem Sponsoring-Namen Alfa Romeo Racing Orlen und mit Ferrari-Motoren in der Formel 1 an. 2020 fahren der Weltmeister des Jahres 2007 Kimi Räikkönen, der 2001 sein Formel-1-Debüt mit Sauber gab, und der Italiener Antonio Giovinazzi als Stammpiloten für Sauber.</p>
 <p class="Text">Haas F1 Team, ursprünglich Haas Formula, ist ein US-amerikanisches Motorsportteam, das seit 2016 an der Formel-1-Weltmeisterschaft teilnimmt.</p>
 <p class="Text">Das Williams F1 Team ist ein britisches Rennsportteam mit Sitz im englischen Grove, das seit 1977 in der Formel 1 aktiv ist. Gründer und Mehrheitseigentümer ist Frank Williams, der bereits von 1968 bis 1975 mit dem Team Frank Williams Racing Cars in der Formel 1 angetreten war. Williams F1 gehört mit 114 Grand-Prix-Siegen, sieben Fahrer- und neun Konstrukteursweltmeistertiteln zu den erfolgreichsten Konstrukteuren in der Geschichte der Formel 1.</p>
+
+<table class="Tabelle">
+  <thead>
+  <tr>
+  <th>Teams </th>
+  <th>Budget in Mio. USD </th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td>Mercedes AMG F1</td>
+  <td>420</td>
+  </tr>
+  <tr>
+  <td>   Ferrari </td>
+  <td>435</td>
+  </tr>
+  <tr>
+  <td>   Red Bull Racing </td>
+  <td>335</td>
+  </tr>
+  <tr>
+  <td>Mclaren</td>
+  <td>250</td>
+  </tr>
+  <tr>
+  <td>Renault</td>
+  <td>210</td>
+  </tr>
+  <tr>
+  <td>Alphatauri</td>
+  <td>155</td>
+  </tr>
+  <tr>
+  <td>Racing Point</td>
+  <td>155</td>
+  </tr>
+  <tr>
+  <td>Alfa Romeo</td>
+  <td>155</td>
+  </tr>
+  <tr>
+  <td>Haas</td>
+  <td>150</td>
+  </tr>
+  <tr>
+  <td>Williams</td>
+  <td>125</td>
+  </tr>
+  </tbody>
+  </table>
+
 </div>
+
+
 <div class="column">
 <img src="https://c.nau.ch/i/yBRaR/1024/lewis-hamilton-mercedes-w11.jpg" alt="Mercedes">
 <img src="https://autodius.com/wp-content/uploads/2020/02/ferrari-sf1000-f1-1.jpg" alt="Ferrari">
@@ -55,8 +109,30 @@
 </div>
 
 
+<button onclick="topFunction()" id="btn" title="Go to top" style="display: block;"> Back to Top </button>
+
+<script>                 
+var mybutton = document.getElementById("btn");
+                  
+                  
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
+mybutton.style.display = "block";
+} else {
+ mybutton.style.display = "none";
+ }
+}
+                  
+
+function topFunction() {
+document.body.scrollTop = 0;
+ document.documentElement.scrollTop = 0;
+}
+</script>
+
 <footer>
-<h3>Crew</h3>
+<h3>Crew:</h3>
 <h3><a href="https://babafish12.github.io/">babafish12</a>
 <h3><a href="https://di-monaco.github.io/">di-monaco</a>
 <h3><a href="https://chris1plus1gleich2.github.io/">chris1plus1gleich2</a>
@@ -66,3 +142,4 @@
 </center>
 </body>
 </html>
+

@@ -53,9 +53,30 @@ Die Corvette konnte sich 2017 sogar die Meisterschaft sichern, nachdem sie diese
 <p class="Text">Die FIA World Rally Championship ist eine vom Automobil-Dachverband Fédération Internationale de l’Automobile (FIA) veranstaltete Rallye-Serie, die nach festgelegten Regeln, Richtlinien und Bedingungen ausgetragen wird. Die Rallye-Weltmeisterschaft ist die höchstrangige von der FIA veranstaltete Rallyeserie des Rallyesports. Sie wird als Königsklasse des Rallyesports bezeichnet, da sie den Anspruch erhebt, die höchsten technischen, fahrerischen, aber auch finanziellen Anforderungen aller Rallyeserien an Fahrer und Konstrukteure zu stellen.</p>
    
 
+<button onclick="topFunction()" id="btn" title="Go to top" style="display: block;"> Back to Top </button>
+
+<script>                 
+var mybutton = document.getElementById("btn");
+                  
+                  
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
+mybutton.style.display = "block";
+} else {
+ mybutton.style.display = "none";
+ }
+}
+                  
+
+function topFunction() {
+document.body.scrollTop = 0;
+ document.documentElement.scrollTop = 0;
+}
+</script>
     
     <footer>
-    <h3>Crew</h3>
+    <h3>Crew:</h3>
     <h3><a href="https://babafish12.github.io/">babafish12</a>
     <h3><a href="https://di-monaco.github.io/">di-monaco</a>
     <h3><a href="https://chris1plus1gleich2.github.io/">chris1plus1gleich2</a>
