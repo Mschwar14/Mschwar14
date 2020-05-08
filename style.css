@@ -30,6 +30,8 @@ p.Categories{
  
   /*Schriftart für dritten Header*/
   h3 {
+    text-align: center;
+    margin-top: 20px;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-shadow: white;
@@ -42,6 +44,14 @@ p.Categories{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-shadow: white;
     color: black (255, 0, 0);
+  }
+
+  h4 {
+    color: red;
+    font-size: 5vmin;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: rgb(0, 0, 0);
+    text-align: center;
   }
   /*Rahmen von HTML*/
   html {
@@ -169,6 +179,7 @@ padding: 4px;
 article {
   grid-area: content;
   text-align: center;
+  text-transform: lowercase;
 
 }
 
@@ -176,6 +187,7 @@ aside {
   grid-area: sidebar;
   text-align: center;
   text-transform: uppercase;
+  text-decoration: none;
 }
                 
 img{
@@ -209,28 +221,35 @@ button{
   cursor: pointer;
   border-radius: 4px;
   padding: 15px;
-  color: black;
-  background-color: red;
+  color: white;
+  background-color: black;
   animation: btn 2s infinite;
 }
 
-@keyframes btn{
-  0%   {background-color: yellow;}
-  50%  {background-color: red;}
-  100%  {background-color:#0787ff;}
+.banner {
+  position: relative;
+  float: left;
+  width: calc(100% - 80px);
+  border: solid rgb(255, 255, 255) 2px;
+  box-shadow: 1px 2px;
+  background-color: black;
+  padding: 6px;
+  margin-bottom: 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
   
-}
-
-@media screen and (max-width: 700px) {
-  .row {   
-    flex-direction: column;
-  }
-}
 
 
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width: 100%;
-  }
+@media only screen and (min-width: 600px) {
+  /*  Tablet: */
+  .article {width: 100%;}
+  .aside {width: 100%;}
 }
+@media only screen and (min-width: 768px) {
+  /*  PC: */
+  .article {width: 100%;}
+  .aside {width: 100%;}
+}
+
+.zoom-in {cursor: zoom-in;}
