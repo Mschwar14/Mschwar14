@@ -28,8 +28,23 @@
 <center>
   
 <h1>Categories</h1>
-<p class="Categories">Roadcars</p> <video controls="active" autoplay="active"><source src="ViperVid.mp4" type="video/mp4"></video>
-  <img src="https://wallpapercave.com/wp/wp2707508.jpg" alt="Ferrari Enzo"><img src="http://getwallpapers.com/wallpaper/full/9/7/a/495961.jpg" alt="Charger">
+<p class="Categories">Roadcars</p> 
+<video id="vid1" controls="active" autoplay="active"><source src="ViperVid.mp4" type="video/mp4"></video>
+  <button onclick="playPause()">Play/Pause</button> 
+  <script> 
+    var myVideo = document.getElementById("vid1"); 
+    
+    function playPause() { 
+      if (myVideo.paused) 
+        myVideo.play(); 
+      else 
+        myVideo.pause(); 
+    }  
+    </script> 
+        
+  
+  
+<img src="https://wallpapercave.com/wp/wp2707508.jpg" alt="Ferrari Enzo"><img src="http://getwallpapers.com/wallpaper/full/9/7/a/495961.jpg" alt="Charger">
 
   
 <p class="Categories">Tuningcars</p> <img src="https://i.pinimg.com/originals/6e/77/44/6e774475d75c49868a7cdae7445617f0.jpg" alt="Nissan GT-R">
@@ -41,10 +56,18 @@
 <p class="Categories"> GT Racecars</p> <img src="ts050.jpg" alt="TS050">
 <img src="dtm1.jfif" alt="DTM" >
     
-<video controls autoplay
-controls="active" autoplay="active">
-    <source src="C8Daytona.mp4" type="video/mp4">
-  </video>
+<video id="vid2" controls="active" autoplay="active"><source src="C8Daytona.mp4" type="video/mp4"></video>
+  <button onclick="playPause()">Play/Pause</button> 
+  <script> 
+    var myVideo = document.getElementById("vid2"); 
+    
+    function playPause() { 
+      if (myVideo.paused) 
+        myVideo.play(); 
+      else 
+        myVideo.pause(); 
+    }  
+    </script> 
 
 <p class="Categories">Formula 1</p> <img src="Racingpoint.jpg" alt="Racingpoint"> <img src="alphatauri.jpg" alt="Alphatauri">
 <img src="williams.jpg" alt="Williams">

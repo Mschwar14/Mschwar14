@@ -115,7 +115,7 @@ p.Categories{
 
 /*Ausrichtung Video*/
   video{
-    width: 75%; height: auto;
+    width: 100%; height: auto;
   }
   /*Ausrichtung Säule*/
   .column {
@@ -179,15 +179,15 @@ padding: 4px;
 article {
   grid-area: content;
   text-align: center;
-  text-transform: lowercase;
+  text-transform: none;
 
 }
 
 aside {
   grid-area: sidebar;
   text-align: center;
-  text-transform: uppercase;
   text-decoration: none;
+  text-transform: none;
 }
                 
 img{
@@ -239,30 +239,34 @@ button{
   box-sizing: border-box;
 }
   
-
-
-@media only screen and (min-width: 600px) {
-  /*  Tablet: */
-  .article {width: 100%;}
-  .aside {width: 100%;}
-}
-@media only screen and (min-width: 768px) {
-  /*  PC: */
-  .article {width: 100%;}
-  .aside {width: 100%;}
-}
-
-div {
-  cursor:pointer;
-}
-
-body {
-  background-color: black;
-  color: white;
-}
-@media screen and (prefers-color-scheme: light) {
+@media only screen and (max-width: 768px) {
   body {
-    background-color: white;
-    color: black;
+    width: 100%;}
+  aside {width: 100%}
+  article{width: 100%;}
+  body { 
+    margin: inherit;
   }
 }
+
+@media only screen and (max-width: 375px) {
+   body{
+     width: 100%;}
+   aside {width: 100%;}
+   article {width: 100%;}
+}
+
+.vdbtn{
+  text-align: left;
+  color: black;
+  }
+  button{
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    cursor: pointer;
+  }
+
+

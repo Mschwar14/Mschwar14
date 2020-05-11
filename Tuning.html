@@ -39,10 +39,19 @@
 <img src="https://i.ytimg.com/vi/e1UvhqoZmUQ/maxresdefault.jpg" alt="Ferrari">
   <img src="https://i.pinimg.com/originals/6e/77/44/6e774475d75c49868a7cdae7445617f0.jpg" alt="GT-R">
 
-<video controls autoplay
-    style="width:75%" controls="active" autoplay="active">
-      <source src="bmw_M5_G-power_sound.mp4" type="video/mp4">
-    </video>
+  <video id="vid3" controls="active" autoplay="active"><source src="bmw_M5_G-power_sound.mp4" type="video/mp4"></video>
+    <button onclick="playPause()">Play/Pause</button> 
+    <script> 
+      var myVideo = document.getElementById("vid3"); 
+      
+      function playPause() { 
+        if (myVideo.paused) 
+          myVideo.play(); 
+        else 
+          myVideo.pause(); 
+      }  
+      </script> 
+      
 <img src="https://cdn.bimmertoday.de/wp-content/uploads/2018/03/G-Power-BMW-M4-CS-Tuning-Lime-Rock-Grey-F82-LCI-03.jpg" alt="M4GPower">
 <img src="https://static1.squarespace.com/static/52db1899e4b0506918731222/5a7a41dc0d92977385658308/5a7a422a53450a72dda6e501/1518050790369/179.jpeg?format=2500w" alt="Aventador">
 <img src="https://www.tuningblog.eu/wp-content/uploads/2018/02/Rocket-Bunny-Mazda-RX-7-Folierung-Tuning-4.jpg" alt="RX7">
