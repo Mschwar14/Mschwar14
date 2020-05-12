@@ -307,11 +307,18 @@ button{
 
   #Password {
     color: black;
-    text-align: left;
-    background-color: white;
-    margin: 100px; 
-    width: 300px;
-    border-color: black;
-    border-radius: 5px;
     text-align: center;
+    background-color: black;
+    margin-top: 200px; 
+    margin-left: 550px;
+    margin-right: 550px;
+    width: 300px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  #Password a{
+    color: white;
+    text-decoration: none;
   }
