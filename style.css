@@ -302,11 +302,12 @@ button{
     font-size: 10px;
     margin-bottom: 5px;
     cursor: pointer;
+    margin-left: none;
   }
 
 
   #Password {
-    color: black;
+    color: white;
     text-align: center;
     background-color: black;
     margin-top: 200px; 
@@ -322,3 +323,5 @@ button{
     color: white;
     text-decoration: none;
   }
+
+ 
