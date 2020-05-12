@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+    <title>Car Gallery</title>
+    <link href="style.css" type="text/css" ; rel="stylesheet" media="screen" />
+<meta name="author" content="Mika">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/vnmd.microsoft.icon" href="carsicon.png">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+<body>
+
+  
+<h1>Car Gallery</h1>
+<h2>Atemberaubende Momentaufnahmen und bewundernswerte Videos für Autoenthusiasten</h2>
+<br>
+<div class="topnav">
+<a class="active" href="index.html">Home</a>
+<a class="b" href="Quellen.html">Quellen</a>
+<a href="Roadcars.html">Roadcars</a>
+<a href="Tuning.html">Tuning Cars</a>
+<a href="GT.html">GT Racecars</a>
+<a href="Formula1.html">Formula 1</a>
+
+</div>
+
+<center>
+  
+<h1>Categories</h1>
+
+<p class="Categories">Roadcars</p> 
+<video id="vid1" controls="active" autoplay="active"><source src="ViperVid.mp4" type="video/mp4"></video>
+  <button onclick="playPause()">Play/Pause</button> 
+  <script> 
+    var myVideo = document.getElementById("vid1"); 
+    
+    function playPause() { 
+      if (myVideo.paused) 
+        myVideo.play(); 
+      else 
+        myVideo.pause(); 
+    }  
+    </script> 
+        
+  
+  
+<img src="https://wallpapercave.com/wp/wp2707508.jpg" alt="Ferrari Enzo"><img src="http://getwallpapers.com/wallpaper/full/9/7/a/495961.jpg" alt="Charger">
+
+  
+<p class="Categories">Tuningcars</p> <img src="https://i.pinimg.com/originals/6e/77/44/6e774475d75c49868a7cdae7445617f0.jpg" alt="Nissan GT-R">
+<img src="corvette1.jpg" alt="Lolz"> <img src="https://images.cdn.circlesix.co/image/2/1200/630/5/uploads/posts/2018/02/2d73b6eaa5d659f6bdc49e6268a9119a.jpeg" alt="Ferrari">
+
+
+<p class="Categories"> GT Racecars</p> <img src="ts050.jpg" alt="TS050">
+<img src="dtm1.jfif" alt="DTM" >
+    
+<video id="vid2" controls="active" autoplay="active"><source src="C8Daytona.mp4" type="video/mp4"></video>
+  <button onclick="playPause()">Play/Pause</button> 
+  <script> 
+    var myVideo = document.getElementById("vid2"); 
+    
+    function playPause() { 
+      if (myVideo.paused) 
+        myVideo.play(); 
+      else 
+        myVideo.pause(); 
+    }  
+    </script> 
+
+<p class="Categories">Formula 1</p> <img src="Racingpoint.jpg" alt="Racingpoint"> <img src="alphatauri.jpg" alt="Alphatauri">
+<img src="williams.jpg" alt="Williams">
+
+
+
+<button onclick="topFunction()" id="btn" title="Go to top" style="display: block;"> Back to Top </button>
+
+<script>                 
+var mybutton = document.getElementById("btn");
+                  
+                  
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
+mybutton.style.display = "block";
+} else {
+ mybutton.style.display = "none";
+ }
+}
+                  
+
+function topFunction() {
+document.body.scrollTop = 0;
+ document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+
+<span class="fa-stack fa-lg">
+  <i class="fas fa-camera fa-stack-1x"></i>
+  <i class="fas fa-ban fa-stack-2x text-danger" style="color:red;"></i>
+</span>
+<h4>all Pictures have a Copyright so Please don't use them for commercial purpose.</h4> 
+
+<div class="banner">other good Webpages</div>
+
+  <footer>
+  <h3><a href="https://babafish12.github.io/">babafish12</a>
+  <h3><a href="https://di-monaco.github.io/">di-monaco</a>
+  <h3><a href="https://chris1plus1gleich2.github.io/">chris1plus1gleich2</a>
+  <h3><a href="https://lukasfrey1.github.io/">lukasfrey1</a></h3>
+  </footer>
+</center>
+</body>
+</html> 
