@@ -215,6 +215,11 @@ button{
   cursor: pointer;
 }
 
+#btn:hover {
+background-color: white;
+color: black;
+}
+
 #btn {
   display: none;
   bottom: 20px;
@@ -228,7 +233,7 @@ button{
   padding: 15px;
   color: white;
   background-color: black;
-  animation: btn 2s infinite;
+
 }
 
 /*Ausrichtung Banner*/
@@ -330,6 +335,4 @@ button{
   #Password a{
     color: white;
     text-decoration: none;
-  }
-
-  
+  } 
