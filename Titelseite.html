@@ -11,7 +11,20 @@
   </head>
 <body>
 
-  
+  <svg height="130" width="500">
+    <defs>
+      <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%"
+        style="stop-color:rgb(0, 37, 250);stop-opacity:1" />
+        <stop offset="100%"
+        style="stop-color:rgb(255, 0, 0);stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+    <text fill="#ffffff" font-size="45" font-family="Verdana"
+    x="50" y="86">Cars</text>
+  </svg>
+
 <h1>Car Gallery</h1>
 <h2>Atemberaubende Momentaufnahmen und bewundernswerte Videos für Autoenthusiasten</h2>
 <br>
@@ -30,32 +43,28 @@
 <h1>Categories</h1>
 
 <p class="Categories">Roadcars</p> 
-<video id="vid1" controls="active" autoplay="active"><source src="ViperVid.mp4" type="video/mp4"></video>
-  <button onclick="playPause()">Play/Pause</button> 
-  <script> 
-    var myVideo = document.getElementById("vid1"); 
-    
-    function playPause() { 
-      if (myVideo.paused) 
-        myVideo.play(); 
-      else 
-        myVideo.pause(); 
-    }  
-    </script> 
+
+
         
   
-  
-<img src="https://wallpapercave.com/wp/wp2707508.jpg" alt="Ferrari Enzo"><img src="http://getwallpapers.com/wallpaper/full/9/7/a/495961.jpg" alt="Charger">
+<video controls="autoplay" controls="active" autoplay="active">
+  <source src="ViperVid.mp4" type="video/mp4">
+  </video>
+<img src="https://wallpapercave.com/wp/wp2707508.jpg" alt="Ferrari Enzo">
+<img src="http://getwallpapers.com/wallpaper/full/9/7/a/495961.jpg" alt="Charger">
 
   
-<p class="Categories">Tuningcars</p> <img src="https://i.pinimg.com/originals/6e/77/44/6e774475d75c49868a7cdae7445617f0.jpg" alt="Nissan GT-R">
-<img src="corvette1.jpg" alt="Lolz"> <img src="https://images.cdn.circlesix.co/image/2/1200/630/5/uploads/posts/2018/02/2d73b6eaa5d659f6bdc49e6268a9119a.jpeg" alt="Ferrari">
+<p class="Categories">Tuningcars</p> 
+<img src="https://i.pinimg.com/originals/6e/77/44/6e774475d75c49868a7cdae7445617f0.jpg" alt="Nissan GT-R">
+<img src="corvette1.jpg" alt="Lolz"> 
+<img src="https://images.cdn.circlesix.co/image/2/1200/630/5/uploads/posts/2018/02/2d73b6eaa5d659f6bdc49e6268a9119a.jpeg" alt="Ferrari">
 
 
 <p class="Categories"> GT Racecars</p> <img src="ts050.jpg" alt="TS050">
 <img src="dtm1.jfif" alt="DTM" >
     
 <video id="vid2" controls="active" autoplay="active"><source src="C8Daytona.mp4" type="video/mp4"></video>
+<br>  
   <button onclick="playPause()">Play/Pause</button> 
   <script> 
     var myVideo = document.getElementById("vid2"); 
@@ -94,8 +103,7 @@ document.body.scrollTop = 0;
  document.documentElement.scrollTop = 0;
 }
 </script>
-
-
+<br>
 <span class="fa-stack fa-lg">
   <i class="fas fa-camera fa-stack-1x"></i>
   <i class="fas fa-ban fa-stack-2x text-danger" style="color:red;"></i>
@@ -103,7 +111,7 @@ document.body.scrollTop = 0;
 <h4>all Pictures have a Copyright so Please don't use them for commercial purpose.</h4> 
 
 <div class="banner">other good Webpages</div>
-
+<br>
   <footer>
   <h3><a href="https://babafish12.github.io/">babafish12</a>
   <h3><a href="https://di-monaco.github.io/">di-monaco</a>
@@ -111,5 +119,7 @@ document.body.scrollTop = 0;
   <h3><a href="https://lukasfrey1.github.io/">lukasfrey1</a></h3>
   </footer>
 </center>
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
+<script src="js.js"></script>
 </body>
 </html> 
